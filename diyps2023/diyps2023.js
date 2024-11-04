@@ -22,7 +22,7 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img = loadImage('diyps2023/images/footstep.jpg');
+  img = loadImage('https://amw-wb.github.io/diyps2023/images/footstep.jpg');
   img2 = loadImage('diyps2023/images/test.png');
   img3 = loadImage('diyps2023/images/test2.png');
   img4 = loadImage('diyps2023/images/test3.png');
