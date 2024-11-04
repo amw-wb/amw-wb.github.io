@@ -1,5 +1,19 @@
 var img;
-var initials ='jm'; // your initials
+var img2;
+var img3;
+var img4;
+var img5;
+var img6;
+var img7;
+var img8;
+var img9;
+var img10;
+var img11;
+var img12;
+var img13;
+var img14;
+
+var initials ='aw'; // your initials
 var choice = '1'; // starting choice, so it is not empty
 var screenbg = 250; // off white background
 var lastscreenshot=61; // last screenshot never taken
@@ -8,7 +22,21 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img = loadImage('https://dma-git.github.io/images/74.png');
+  img = loadImage('diyps2023/images/footstep.jpg');
+  img2 = loadImage('diyps2023/images/test.png');
+  img3 = loadImage('diyps2023/images/test2.png');
+  img4 = loadImage('diyps2023/images/test3.png');
+  img5 = loadImage('diyps2023/images/lock.png');
+  img6 = loadImage('diyps2023/images/soul.png');
+  img7 = loadImage('diyps2023/images/larva.png');
+  img8 = loadImage('diyps2023/images/parasite.png');
+  img9 = loadImage('diyps2023/images/sin.png');
+  img10 = loadImage('diyps2023/images/postmortem.jpg');
+  img11 = loadImage('diyps2023/images/melanoma.jpg');
+  img12 = loadImage('diyps2023/images/multimelanoma.jpg');
+  img13 = loadImage('diyps2023/images/theology.jpg');
+  img14 = loadImage('diyps2023/images/uncooked.png');
+  
 }
 
 function setup() {
@@ -76,8 +104,47 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
     rect(mouseX, mouseY, 200, 150);
-  } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
+  } else if (toolChoice == 'q' || toolChoice == 'Q') { // q places the image we pre-loaded
     image(img, mouseX, mouseY, 50, 50);
+    
+   } else if (toolChoice == 'w' || toolChoice == 'W') { // w places the image we pre-loaded
+    image(img2, mouseX, mouseY, 50, 50); 
+    
+       } else if (toolChoice == 'e' || toolChoice == 'E') { // e places the image we pre-loaded
+    image(img3, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 'r' || toolChoice == 'R') { // r places the image we pre-loaded
+    image(img4, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 't' || toolChoice == 'T') { // t places the image we pre-loaded
+    image(img5, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 'y' || toolChoice == 'Y') { // y places the image we pre-loaded
+    image(img6, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 'u' || toolChoice == 'U') { // u places the image we pre-loaded
+    image(img7, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 'i' || toolChoice == 'I') { // i places the image we pre-loaded
+    image(img8, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 'o' || toolChoice == 'O') { // o places the image we pre-loaded
+    image(img9, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 'p' || toolChoice == 'P') { // p places the image we pre-loaded
+    image(img10, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 'a' || toolChoice == 'A') { // a places the image we pre-loaded
+    image(img11, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 's' || toolChoice == 'S') { // s places the image we pre-loaded
+    image(img12, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 'd' || toolChoice == 'D') { // d places the image we pre-loaded
+    image(img13, mouseX, mouseY, 50, 50); 
+    
+      } else if (toolChoice == 'f' || toolChoice == 'F') { // f places the image we pre-loaded
+    image(img14, mouseX, mouseY, 50, 50); 
     
   }
  }
