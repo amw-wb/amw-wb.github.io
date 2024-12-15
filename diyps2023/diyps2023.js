@@ -22,25 +22,25 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img = loadImage('https://amw-wb.github.io/diyps2023/images/footstep.jpg');
-  img2 = loadImage('diyps2023/images/test.png');
-  img3 = loadImage('diyps2023/images/test2.png');
-  img4 = loadImage('diyps2023/images/test3.png');
-  img5 = loadImage('diyps2023/images/lock.png');
-  img6 = loadImage('diyps2023/images/soul.png');
-  img7 = loadImage('diyps2023/images/larva.png');
-  img8 = loadImage('diyps2023/images/parasite.png');
-  img9 = loadImage('diyps2023/images/sin.png');
-  img10 = loadImage('diyps2023/images/postmortem.jpg');
-  img11 = loadImage('diyps2023/images/melanoma.jpg');
-  img12 = loadImage('diyps2023/images/multimelanoma.jpg');
-  img13 = loadImage('diyps2023/images/theology.jpg');
-  img14 = loadImage('diyps2023/images/uncooked.png');
+  img = loadImage('images/footstep.jpg');
+  img2 = loadImage('images/test.png');
+  img3 = loadImage('images/test2.png');
+  img4 = loadImage('images/test3.png');
+  img5 = loadImage('images/lock.png');
+  img6 = loadImage('images/soul.png');
+  img7 = loadImage('images/larva.png');
+  img8 = loadImage('images/parasite.png');
+  img9 = loadImage('images/sin.png');
+  img10 = loadImage('images/postmortem.jpg');
+  img11 = loadImage('images/melanoma.jpg');
+  img12 = loadImage('images/multimelanoma.jpg');
+  img13 = loadImage('images/theology.jpg');
+  img14 = loadImage('images/uncooked.png');
   
 }
 
 function setup() {
-createCanvas(600, 400);  // canvas size
+createCanvas(1000, 1000);  // canvas size
 background(screenbg);   // use our background screen color
 
 }
